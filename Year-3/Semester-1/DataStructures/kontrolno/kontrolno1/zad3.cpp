@@ -69,9 +69,9 @@ Node* rearrange(Node*& head) {
 }
 
 int main() {
-    // Node* head = new Node(0, new Node(1, new Node(2, 
-    //                 new Node(3, new Node(4, new Node(5, new Node(6)))))));
-    Node* head = new Node(2, new Node(1, new Node(7, new Node(4))));
+    Node* head = new Node(0, new Node(1, new Node(2, 
+                    new Node(3, new Node(4, new Node(5, new Node(6)))))));
+    //Node* head = new Node(2, new Node(1, new Node(7, new Node(4))));
     print(head);
     Node* res = rearrange(head);
     print(res);
